@@ -1,0 +1,820 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  cursor: none;
+  background: white;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.player-container {
+    background-color: #3a404a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.play-button {
+    background-color: #61afef; 
+    color: white; 
+    border: none;
+    font-size: 2em; 
+    cursor: none;
+    transition: background-color 0.3s ease; 
+    position: absolute;
+    top: 139px;
+    left: 666px;
+    width: 109px;
+    padding: 24px 22px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+    border-radius: 16px;
+    outline: 1px solid white;
+    box-shadow: inset 4px 4px 24px rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.play-button:hover {
+    background-color: #F9E166;
+}
+
+.play-button:active {
+    background-color: #F9E199;
+}
+
+.page-wrapper {
+  position: relative;
+  width: 1440px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero-bg {
+  position: absolute;
+  height: 108vh;
+  width: 100%;
+  display: flex;
+}
+
+.title {
+  position: absolute;
+  top: 427px;
+  left: 362px;
+  font-size: 128px;
+  font-weight: 700;
+  color: #F9E166;
+}
+
+.subtitle {
+  position: absolute;
+  top: 547px;
+  left: 408px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #F9E166;
+  mix-blend-mode: difference;
+}
+
+.author {
+  position: absolute;
+  top: 783px;
+  left: 578px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #F9E166;
+  mix-blend-mode: difference;
+}
+
+.play-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.description {
+  position: absolute;
+  top: 945px;
+  left: 1049px;
+  width: 353px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.images {
+  position: absolute;
+  top: 1077px;
+  left: 0;
+  display: flex;
+  gap: 0px;
+  width: 100%;
+  justify-content: center;
+  opacity: 0.67;
+  mix-blend-mode: luminosity;
+}
+
+.images img {
+  height: 472px;
+  object-fit: cover;
+}
+
+.integrantes-title {
+  position: absolute;
+  top: 932px;
+  left: 48px;
+  font-size: 128px;
+  font-weight: 700;
+  color: #F9E166;
+}
+
+.integrantes {
+  position: absolute;
+  top: 1459px;
+  left: 12px;
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 12px;
+}
+
+.nombre {
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+  width: 277px;
+  line-height: 75%;
+}
+
+.albumes {
+  position: absolute;
+  top: 1459px;
+  left: 12px;
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 12px;
+}
+
+.custom-cursor {
+    position: fixed; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    background-color: rgba(249, 225, 102, 1); 
+    pointer-events: none; 
+    transform: translate(-50%, -50%); 
+    transition: width 0.1s ease-out, height 0.1s ease-out, background-color 0.1s ease-out; 
+    z-index: 9999; 
+    mix-blend-mode: difference;
+}
+
+.custom-cursor.hovering {
+    background-color: rgba(249, 225, 102, 1)
+    width: 40px; 
+    height: 40px;
+}
+
+
+.interactive-image {
+    margin: 0px;
+    border: 2px solid #61afef;
+    transition: transform 0.2s ease;
+}
+
+.interactive-image:hover {
+    transform: scale(1.02);
+}
+
+.member-info-box {
+    width: 323px;
+    height: 208px; 
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(248.63, 225.09, 101.52, 0.25) 100%);
+    overflow: hidden;
+    border-radius: 16px;
+    backdrop-filter: blur(16px);
+}
+
+.member-info-box-1 {
+    left: 31px;
+    top: 1565px;
+}
+.member-info-box-2 {
+    left: 729px;
+    top: 1565px;
+}
+.member-info-box-3 {
+    left: 380px; 
+    top: 1565px;
+}
+.member-info-box-4 { 
+    left: 1078px;
+    top: 1560px;
+}
+
+
+.member-info-box-shorter {
+    height: 168px;
+}
+
+.info-content-wrapper {
+    left: 48px;
+    top: 44px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.info-text {
+    width: 227px; 
+}
+
+.info-text .role {
+    color: black;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.info-text .details {
+    color: black;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+/* Título de Álbumes */
+.albums-main-title {
+    width: 504px;
+    height: 576px;
+    left: 25px; 
+    top: 2080px; 
+    position: absolute;
+    color: #F9E166;
+    font-size: 200px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    line-height: 158px;
+    word-wrap: break-word;
+    z-index: 3;
+}
+
+
+.central-intro-paragraph {
+    width: 1012px;
+    left: 214px; 
+    top: 1837px; 
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+
+.album-blur-background {
+    width: 679px;
+    height: 679px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 245.41, 195.03, 0.25) 0%, rgba(255, 215.13, 5.80, 0.25) 100%);
+    backdrop-filter: blur(16px);
+    
+
+}
+.album-blur-background-1 {
+    left: 0px; 
+    top: 1950px; 
+    width: 1430px;
+    z-index: 0;
+}
+.album-blur-background-2 {
+    left: 1059px; 
+    top: 1950px; 
+    width: 381px;
+    z-index: 0;
+     mask-image: linear-gradient(to right, transparent 0%, black 100%);
+    mask-mode: alpha;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 100%);
+    -webkit-mask-mode: alpha;
+}
+
+.album-blur-background-3 {
+    left: 0px; 
+    top: 1950px; 
+    width: 381px;
+    z-index: 0;
+     mask-image: linear-gradient(to left, transparent 0%, black 100%);
+    mask-mode: alpha;
+    -webkit-mask-image: linear-gradient(to left, transparent 0%, black 100%);
+    -webkit-mask-mode: alpha;
+}
+
+.album-title {
+    font-size: 24px; 
+    font-weight: 700;
+    margin-bottom: 5px; 
+}
+
+.album-year {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+#albumCarousel {
+    display: flex;
+    flex-direction: row; 
+    overflow-x: scroll; 
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch; 
+    width: 100%; 
+    height: 640px; 
+    gap: 20px; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    padding-bottom: 20px; 
+    position: absolute; 
+    left: 0px; 
+    top: 1980px; 
+    z-index: 1; 
+    justify-content: flex-start;
+    align-items: flex-start; 
+    padding-left: 400px; 
+    padding-right: 400px;
+
+}
+
+#albumCarousel::-webkit-scrollbar {
+    display: none;
+}
+
+.album-item {
+    flex: 0 0 auto; 
+    width: 640px; 
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    gap: 10px; 
+    scroll-snap-align: center; /
+    flex-shrink: 0;
+}
+
+
+.album-cover-img {
+    width: 550px; 
+    height: 550px; 
+    object-fit: cover; 
+}
+
+
+.album-info {
+    color: black; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 10px 0;
+}
+
+
+ /*DESPUES DEL CARRUSEL*/
+
+
+#songsByAlbumSection {
+    color: black; 
+    text-align: center; 
+    margin-top: 2700px;
+}
+
+#songsByAlbumSection h2 {
+    font-size: 3em;
+    margin-bottom: 30px; 
+    color: #1a237e; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+    width: 1012px;
+    left: 214px; 
+    top: 2700px; 
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: medium;
+    word-wrap: break-word;
+}
+
+.songs-banner {
+    top: 150px;
+    position: relative;
+    width: 100%;
+    height: 900px; 
+    overflow: hidden;
+    margin-bottom: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.songs-banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.songs-banner-overlay {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.songs-banner-overlay h1 {
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 128px;
+    color: #F9E166;  
+    margin: -10px 0;
+    line-height: 1.3;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    white-space: nowrap;  
+}
+ 
+@media (max-width: 992px) {
+    .songs-banner {
+        height: 400px;
+    }
+    .songs-banner-overlay h1 {
+        font-size: 128px;
+        letter-spacing: 3px;
+    }
+}
+
+@media (max-width: 768px) {
+    #songsByAlbumSection {
+        padding: 0 10px;  
+        margin-top: 60px;  
+    }
+     #songsByAlbumSection h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+    .songs-banner {
+        height: 300px;
+    }
+    .songs-banner-overlay h1 {
+        font-size: 128px;
+        margin: -5px 0;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    .songs-banner-overlay h1 {
+        font-size: 128px;
+    }
+}
+
+#albumPopularityVizSection {
+    text-align: center;
+    padding: 80px 10px;  
+    margin-top: 120px;    
+    background-color: #fff;  
+    color: #333;
+}
+
+ 
+#albumCoversVizContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 150px;
+}
+ 
+.album-viz-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-viz-item img {
+    width: 100%;  
+    height: 100%;
+}
+
+.album-viz-name {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.section-description {
+    width: 1012px;
+    left: 214px; 
+    top: 3890px; 
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+
+#coldplay-en-vivo-fixed { 
+    width: 1440px; 
+    height: 6500px; 
+    position: relative; 
+    background: white; 
+    font-family: 'Josefin Sans', sans-serif; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.fixed-element {
+    position: absolute; 
+    word-wrap: break-word; 
+}
+
+.fixed-element { 
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5; 
+}
+
+.fixed-element[class*="-titulo"], 
+.header-cris-martin 
+{
+    color: #F9E166;
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 106.51px; 
+}
+
+.header-cris-martin {
+    width: 167px;
+    height: 89px;
+    left: 12px;
+    top: 1459px;
+    color: white; 
+    font-size: 51px;
+    line-height: 38.25px;
+    box-shadow: none; 
+}
+
+
+/* COLDPLAY EN VIVO (Título principal) */
+.coldplay-en-vivo-titulo-principal {
+    width: 1332px;
+    height: 94px;
+    left: 54px;
+    top: 10px;
+    text-align: center;
+    line-height: 121px;
+}
+
+.coldplay-en-vivo-descripcion-general {
+    width: 938px;
+    left: 251px;
+    top: 170px;
+    text-align: center;
+}
+
+/* --- Live 8, Londres --- */
+.live8-titulo {
+    width: 1324px;
+    left: 30px;
+    top: 400px;
+}
+.live8-texto {
+    width: 520px;
+    left: 32px;
+    top: 600px;
+}
+.live8-img-1 {
+    width: 869.12px; 
+    height: 578px;
+    left: 590px;
+    top: 520px; 
+}
+.live8-img-2 {
+    width: 663.11px; 
+    height: 373px;
+    left: 0px;
+    top: 725px; 
+}
+
+/* --- Glastonbury Festival, UK --- */
+.glastonbury-titulo {
+    width: 807px;
+    left: 610px;
+    top: 1100px;
+    text-align: right;
+    z-index: 2;
+}
+.glastonbury-anios { 
+    font-size: 68px;
+    line-height: 56.58px;
+    display: block; 
+    z-index: 2;
+}
+.glastonbury-texto {
+    width: 569px;
+    left: 826px;
+    top: 1370px;
+    z-index: 2;
+}
+.glastonbury-img-1 {
+    width: 803px;
+    height: 602px;
+    left: 0px;
+    top: 1310px;
+    z-index: 1;
+}
+.glastonbury-img-2 {
+    width: 738px;
+    height: 415px;
+    left: 780px;
+    top: 1497px;
+}
+
+/* --- iHeartRadio Music Festival, Las Vegas --- */
+.iheartradio-titulo {
+    width: 1366px;
+    left: 36px;
+    top: 2000px;
+    z-index: 2;
+}
+.iheartradio-texto {
+    width: 388px;
+    left: 1014px;
+    top: 2225px;
+    text-align: right;
+    line-height: 20px;
+}
+.iheartradio-img-1 {
+    width: 982px;
+    height: 655px;
+    left: 0px;
+    top: 2200px;
+}
+.iheartradio-img-2 {
+    width: 457px;
+    height: 526px;
+    left: 983px;
+    top: 2329px;
+}
+
+/* --- Super Bowl Halftime Show EE.UU, 2016 --- */
+.superbowl-titulo {
+    width: 1171px;
+    left: 238px;
+    top: 2900px;
+    text-align: right;
+}
+.superbowl-texto {
+    width: 406px;
+    left: 31px;
+    top: 3000px;
+    line-height: 20px;
+}
+.superbowl-img-1 {
+    width: 894.06px;
+    height: 461px;
+    left: 550px;
+    top: 3220px;
+}
+.superbowl-img-2 {
+    width: 678px;
+    height: 562px;
+    left: 0px;
+    top: 3119px;
+}
+
+/* --- Live in Buenos Aires, 2017 --- */
+.bsas-titulo {
+    width: 840px;
+    left: 31px;
+    top: 3750px;
+    z-index: 2;
+}
+.bsas-texto {
+    width: 791px;
+    left: 604px;
+    top: 3780px;
+    text-align: right;
+}
+.bsas-img-1 {
+    width: 998px;
+    height: 499px;
+    left: -17px;
+    top: 3950px;
+
+}
+.bsas-img-2 {
+    width: 589px;
+    height: 589px;
+    left: 851px;
+    top: 3860px;
+    z-index: 1;
+}
+
+/* --- Hollywood Bowl, Los Angeles, 2021 --- */
+.hollywood-titulo {
+    left: 230px;
+    top: 4540px;
+    text-align: right;
+    width: 1171px; 
+}
+.hollywood-texto {
+    width: 682px;
+    left: 718px;
+    top: 4770px;
+}
+.hollywood-img-1 {
+    width: 678px;
+    height: 678px;
+    left: 0px;
+    top: 4750px;
+}
+.hollywood-img-2 {
+    width: 762px;
+    height: 545px;
+    left: 678px;
+    top: 4883px;
+}
+
+/* --- Estadio Nacional, Chile, 2022 --- */
+.chile-titulo {
+    width: 1093px;
+    left: 26px;
+    top: 5500px;
+}
+.chile-texto {
+    width: 667px;
+    height: 55px; 
+    left: 733px;
+    top: 5615px;
+    text-align: left;
+    line-height: 20px; 
+}
+.chile-img-1 {
+    width: 850px;
+    height: 900px;
+    left: -80px; 
+    top: 5720px;
+}
+.chile-img-2 {
+    width: 850px;
+    height: 900px;
+    left: 678px; 
+    top: 5720px;
+}
+
+footer {
+    background-color: white;
+    color: #333; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 14px; 
+    margin-top: 20px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    line-height: 1.5; 
+}
