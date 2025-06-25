@@ -16,11 +16,11 @@ El fin de este proyecto está en mostrar de una manera *infográfica* la trayect
 
 ## Referencias e Inspiración
 
-| **_FUENTE_**        | **_DESCRIPCIÓN_**           | **_ENLACE_**       | **_ASPECTOS POSITVOS_**      | 
-| ------------- |:-------------:| -----:|-----:|-----:|
-| Our roots |Un breve repaso histórico del surgimiento e impacto de la cárcel y los abogados en el ordenamiento jurídico| https://history.jailhouselawyers.org/ |Puntero interactivo con los imagenes y tipografías bold|
-| Ultracombos |Estudio de experiencia digital con proyectos de arte y diseño, centrados en exposiciones, instalaciones artísticas y experiencias inmersivas| https://ultracombos.com/en-us|Portada grande y llamativa, me inspiré en las imágenes grandes de las exposiciones para la visualización de los conciertos|
-| Coldplay |Visuales| https://sustainability.coldplay.com/ | Gráfica acorde el último álbum de colplay| 
+| FUENTE      | DESCRIPCIÓN                                                                                                           | ENLACE                                       | ASPECTOS POSITIVOS                                                               |
+|-------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------------------|----------------------------------------------------------------------------------|
+| Our roots   | Un breve repaso histórico del surgimiento e impacto de la cárcel y los abogados en el ordenamiento jurídico          | https://history.jailhouselawyers.org/        | Puntero interactivo con las imágenes y tipografías bold                          |
+| Ultracombos | Estudio de experiencia digital con proyectos de arte y diseño, centrados en exposiciones, instalaciones artísticas y experiencias inmersivas | https://ultracombos.com/en-us              | Portada grande y llamativa, me inspiré en las imágenes grandes de las exposiciones para la visualización de los conciertos |
+| Coldplay    | Visuales                                                                                                              | https://sustainability.coldplay.com/         | Gráfica acorde el último álbum de Coldplay                                       |
 
 
 
