@@ -18,7 +18,7 @@ El fin de este proyecto está en mostrar de una manera *infográfica* la trayect
 
 | **_FUENTE_**        | **_DESCRIPCIÓN_**           | **_ENLACE_**       | **_ASPECTOS POSITVOS_**      | **_ASPECTOS NEGATIVOS_**      |
 | ------------- |:-------------:| -----:|-----:|-----:|
-| Our roots |Un breve repaso histórico del surgimiento e impacto de la cárcel y los abogados en el ordenamiento jurídico| https://history.jailhouselawyers.org/ |Puntero interactivo con los imagenes y tipografías|Que todo el flujo sea horizontal marea un poco|
+| Our roots |Un breve repaso histórico del surgimiento e impacto de la cárcel y los abogados en el ordenamiento jurídico| https://history.jailhouselawyers.org/ |Puntero interactivo con los imagenes y tipografías bold|Que todo el flujo sea horizontal marea un poco|
 | Ultracombos |Estudio de experiencia digital con proyectos de arte y diseño, centrados en exposiciones, instalaciones artísticas y experiencias inmersivas| https://ultracombos.com/en-us|Portada interactiva con video, gráficamente muy linda|No le vi aaspectos negativos|
 | South China Morning Post      | Gráfica y Narrativa | https://pudding.cool/2024/03/greatest-music/  |  -Paso de portada a la info interesante -Inspiración para disponer los álbumes que más resuenan | Demasiada info dispuesta en imágenes|
 | Coldplay |Visuales| https://sustainability.coldplay.com/ | Gráfica acorde el último álbum de colplay| Fome de interactuar|
