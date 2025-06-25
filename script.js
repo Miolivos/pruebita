@@ -69,7 +69,7 @@ document.addEventListener('mouseenter', () => {
 /*CARGA DATOS*/
 async function datos() {
     try {
-        const consulta = await fetch("https://raw.githubusercontent.com/Miolivos/Coldplay_Trabajo-Final/refs/heads/main/coldplay.json");
+        const consulta = await fetch("https://raw.githubusercontent.com/Miolivos/pruebita/refs/heads/main/coldplay.json");
         const data = await consulta.json();
         console.log("Datos del JSON cargados:", data);
 
