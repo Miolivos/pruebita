@@ -1,0 +1,295 @@
+[
+  {
+    "Tipo": "Miembro",
+    "Nombre": "Chris Martin",
+    "Rol en la banda": "Vocalista principal, piano, guitarra",
+    "Notas adicionales": "Fundador y principal compositor"
+  },
+  {
+    "Tipo": "Miembro",
+    "Nombre": "Jonny Buckland",
+    "Rol en la banda": "Guitarra principal",
+    "Notas adicionales": null
+  },
+  {
+    "Tipo": "Miembro",
+    "Nombre": "Guy Berryman",
+    "Rol en la banda": "Bajo",
+    "Notas adicionales": null
+  },
+  {
+    "Tipo": "Miembro",
+    "Nombre": "Will Champion",
+    "Rol en la banda": "Batería, coros",
+    "Notas adicionales": "También toca otros instrumentos y canta coros"
+  },
+  {
+    "Tipo": "Álbum",
+    "Álbum": "Parachutes",
+    "Año de lanzamiento": 2000,
+    "cover_image": "./images/parachutes.jpeg"
+  },
+  {
+    "Tipo": "Álbum",
+    "Álbum": "A Rush of Blood to the Head",
+    "Año de lanzamiento": 2002,
+    "cover_image": "./images/arushofbloodtothehead.jpg"
+  },
+  {
+    "Tipo": "Álbum",
+    "Álbum": "X&Y",
+    "Año de lanzamiento": 2005,
+    "cover_image": "./images/x&y.jpeg"
+  },
+  {
+    "Tipo": "Álbum",
+    "Álbum": "Viva la Vida or Death And All His Friends",
+    "Año de lanzamiento": 2008,
+    "cover_image": "./images/vivalavida.jpeg"
+  },
+  {
+    "Tipo": "Álbum",
+    "Álbum": "Mylo Xyloto",
+    "Año de lanzamiento": 2011,
+    "cover_image": "./images/myloxyloto.jpeg"
+  },
+  {
+    "Tipo": "Álbum",
+    "Álbum": "Ghost Stories",
+    "Año de lanzamiento": 2014,
+    "cover_image": "./images/ghoststories.jpeg"
+  },
+  {
+    "Tipo": "Álbum",
+    "Álbum": "A Head Full of Dreams",
+    "Año de lanzamiento": 2015,
+    "cover_image": "./images/aheadfullofdreams.jpeg"
+  },
+  {
+    "Tipo": "Álbum",
+    "Álbum": "Everyday Life",
+    "Año de lanzamiento": 2019,
+    "cover_image": "./images/everydaylife.jpeg"
+  },
+  {
+    "Tipo": "Álbum",
+    "Álbum": "Music of the Spheres",
+    "Año de lanzamiento": 2021,
+    "cover_image": "./images/musicofthespheres.jpeg"
+  },
+  {
+    "Tipo": "Álbum",
+    "Álbum": "Moon Music",
+    "Año de lanzamiento": 2024,
+    "cover_image": "./images/moonmusic.jpeg"
+  },
+  {
+    "Tipo": "Evento",
+    "Evento": "Live 8 (Londres)",
+    "Lugar": "Londres",
+    "Año": 2005,
+    "Asistencia Aproximada": 200000
+  },
+  {
+    "Tipo": "Evento",
+    "Evento": "Glastonbury Festival (UK)",
+    "Lugar": "Reino Unido",
+    "Año": "2002 / 2011 / 2016 / 2021",
+    "Asistencia Aproximada": null
+  },
+  {
+    "Tipo": "Evento",
+    "Evento": "iHeartRadio Music Festival (Las Vegas)",
+    "Lugar": "Las Vegas",
+    "Año": 2014,
+    "Asistencia Aproximada": 15000
+  },
+  {
+    "Tipo": "Evento",
+    "Evento": "Super Bowl Halftime Show (EE.UU.)",
+    "Lugar": "EE.UU.",
+    "Año": 2016,
+    "Asistencia Aproximada": 71000
+  },
+  {
+    "Tipo": "Evento",
+    "Evento": "Live in Buenos Aires",
+    "Lugar": "Buenos Aires",
+    "Año": 2017,
+    "Asistencia Aproximada": 45000
+  },
+  {
+    "Tipo": "Evento",
+    "Evento": "Hollywood Bowl (Los Ángeles)",
+    "Lugar": "Los Ángeles",
+    "Año": 2021,
+    "Asistencia Aproximada": 17500
+  },
+  {
+    "Tipo": "Evento",
+    "Evento": "Coldplay en Chile (Estadio Nacional)",
+    "Lugar": "Santiago de Chile",
+    "Año": 2022,
+    "Asistencia Aproximada": 60000
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Yellow",
+    "Álbum": "Parachutes"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Trouble",
+    "Álbum": "Parachutes"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Don't Panic",
+    "Álbum": "Parachutes"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Shiver",
+    "Álbum": "Parachutes"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "The Scientist",
+    "Álbum": "A Rush of Blood to the Head"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Clocks",
+    "Álbum": "A Rush of Blood to the Head"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "In My Place",
+    "Álbum": "A Rush of Blood to the Head"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "God Put a Smile Upon Your Face",
+    "Álbum": "A Rush of Blood to the Head"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Fix You",
+    "Álbum": "X&Y"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Speed of Sound",
+    "Álbum": "X&Y"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "The Hardest Part",
+    "Álbum": "X&Y"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Viva la Vida",
+    "Álbum": "Viva la Vida or Death And All His Friends"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Violet Hill",
+    "Álbum": "Viva la Vida or Death And All His Friends"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Paradise",
+    "Álbum": "Mylo Xyloto"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Every Teardrop Is a Waterfall",
+    "Álbum": "Mylo Xyloto"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Charlie Brown",
+    "Álbum": "Mylo Xyloto"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Princess of China",
+    "Álbum": "Mylo Xyloto"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Magic",
+    "Álbum": "Ghost Stories"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "A Sky Full of Stars",
+    "Álbum": "Ghost Stories"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Midnight",
+    "Álbum": "Ghost Stories"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Always in My Head",
+    "Álbum": "Ghost Stories"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Adventure of a Lifetime",
+    "Álbum": "A Head Full of Dreams"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Hymn for the Weekend",
+    "Álbum": "A Head Full of Dreams"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Up&Up",
+    "Álbum": "A Head Full of Dreams"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Everglow",
+    "Álbum": "A Head Full of Dreams"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Orphans",
+    "Álbum": "Everyday Life"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Higher Power",
+    "Álbum": "Music of the Spheres"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "My Universe",
+    "Álbum": "Music of the Spheres"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Coloratura",
+    "Álbum": "Music of the Spheres"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Biutyful",
+    "Álbum": "Music of the Spheres"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Feelslikeimfallinginlove",
+    "Álbum": "Moon Music"
+  },
+  {
+    "Tipo": "Canción",
+    "Canción": "Humankind (Moon Music Version)",
+    "Álbum": "Moon Music"
+  }
+]
