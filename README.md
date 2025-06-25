@@ -16,16 +16,11 @@ El fin de este proyecto está en mostrar de una manera *infográfica* la trayect
 
 ## Referencias e Inspiración
 
-| **_FUENTE_**        | **_DESCRIPCIÓN_**           | **_ENLACE_**       | **_ASPECTOS POSITVOS_**      | **_ASPECTOS NEGATIVOS_**      |
+| **_FUENTE_**        | **_DESCRIPCIÓN_**           | **_ENLACE_**       | **_ASPECTOS POSITVOS_**      | 
 | ------------- |:-------------:| -----:|-----:|-----:|
-| Our roots |Un breve repaso histórico del surgimiento e impacto de la cárcel y los abogados en el ordenamiento jurídico| https://history.jailhouselawyers.org/ |Puntero interactivo con los imagenes y tipografías bold|Que todo el flujo sea horizontal marea un poco|
-| Ultracombos |Estudio de experiencia digital con proyectos de arte y diseño, centrados en exposiciones, instalaciones artísticas y experiencias inmersivas| https://ultracombos.com/en-us|Portada interactiva con video, gráficamente muy linda|No le vi aaspectos negativos|
-| South China Morning Post      | Gráfica y Narrativa | https://pudding.cool/2024/03/greatest-music/  |  -Paso de portada a la info interesante -Inspiración para disponer los álbumes que más resuenan | Demasiada info dispuesta en imágenes|
-| Coldplay |Visuales| https://sustainability.coldplay.com/ | Gráfica acorde el último álbum de colplay| Fome de interactuar|
-| Pudding      | Storytelling de los álbumes     |   https://pudding.cool/2025/04/music-dna/ | Interacción auditiva de los albumes | Disposición vertical desaprovechada |
-| Pudding | Gráficos interactivos     |  https://pudding.cool/2023/10/genre/| Gráficos claros e interctivos | Click para avanzar es molesto |
-
-
+| Our roots |Un breve repaso histórico del surgimiento e impacto de la cárcel y los abogados en el ordenamiento jurídico| https://history.jailhouselawyers.org/ |Puntero interactivo con los imagenes y tipografías bold|
+| Ultracombos |Estudio de experiencia digital con proyectos de arte y diseño, centrados en exposiciones, instalaciones artísticas y experiencias inmersivas| https://ultracombos.com/en-us|Portada grande y llamativa, me inspiré en las imágenes grandes de las exposiciones para la visualización de los conciertos|
+| Coldplay |Visuales| https://sustainability.coldplay.com/ | Gráfica acorde el último álbum de colplay| 
 
 
 
