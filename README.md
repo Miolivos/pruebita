@@ -23,6 +23,8 @@ El fin de este proyecto está en mostrar de una manera *infográfica* la trayect
 | Coldplay    | Visuales                                                                                                              | https://sustainability.coldplay.com/         | Gráfica acorde el último álbum de Coldplay                                       |
 
 
+![Referencia gráfica] (https://github.com/Miolivos/pruebita/blob/main/referencia_gra%CC%81fica.jpg?raw=true)
+
 
 
 
